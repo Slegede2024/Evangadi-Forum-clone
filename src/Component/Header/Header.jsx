@@ -17,7 +17,7 @@ function Header() {
     <header className={style.header_container}>
       <div className={style.logo_div}>
         <div className={style.logo}>
-          <img src="/Logo.png" alt="Home" />
+          <img src="./images/" alt="Home" />
         </div>
       </div>
       <div className={style.login_logout_div}>
