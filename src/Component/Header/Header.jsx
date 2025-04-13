@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import style from "./Header.module.css";
 import { AppState } from "../../App";
+import logo from "../Header/images/Logo.png";
 
 function Header() {
   const navigate = useNavigate();
@@ -17,7 +18,7 @@ function Header() {
     <header className={style.header_container}>
       <div className={style.logo_div}>
         <div className={style.logo}>
-          <img src="./images/" alt="Home" />
+          <img src={logo} alt="Home" />
         </div>
       </div>
       <div className={style.login_logout_div}>
